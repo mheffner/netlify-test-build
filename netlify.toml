@@ -1,0 +1,4 @@
+[context."master"]
+  command = "./build.sh"
+  base = ""
+  publish = ""
