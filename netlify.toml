@@ -1,4 +1,4 @@
 [context."master"]
-  command = "./build.sh"
+  command = "sleep 1200 & env && sleep 20 && echo 'build script completed but background process running for +20 minutes now'"
   base = ""
   publish = ""
