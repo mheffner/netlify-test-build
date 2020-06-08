@@ -1,4 +1,4 @@
 [context."big-file"]
-  command = "build sh"
+  command = "build.sh"
   base = ""
   publish = ""
