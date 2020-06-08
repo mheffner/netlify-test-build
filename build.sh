@@ -6,3 +6,4 @@ echo "Hello from big-file build cache test!"
 dd if=/dev/urandom of=big-file.data bs=1M count=15360
 
 mv big-file.data $HOME/.cache/
+
