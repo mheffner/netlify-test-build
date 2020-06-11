@@ -1,4 +1,4 @@
-[context."master"]
-  command = "sleep 1200 & env && sleep 20 && echo 'build script completed but background process running for +20 minutes now'"
+[context."long-build"]
+  command = "echo 'sleeping for 15 mins' && sleep 900"
   base = ""
   publish = ""
