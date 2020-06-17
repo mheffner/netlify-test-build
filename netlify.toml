@@ -1,4 +1,4 @@
 [context."long-build"]
-  command = "echo 'sleeping for 15 mins' && sleep 900"
+  command = "CI= ./build.sh"
   base = ""
   publish = ""
