@@ -1,4 +1,4 @@
 [context."long-build"]
-  command = "CI= ./build.sh"
+  command = "CI='' ./build.sh"
   base = ""
   publish = ""
